@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    background-color: aqua;
+    margin: 0;
+}
+nav {
+    background-color: red;
+    margin: 10px;
+}
+section {
+    background-color: yellow;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: column;
+    
+}
+aside {
+    display: flex;
+    background-color: white;
+    display: inline-block;
+    width: 150px;
+}
+article {
+    background-color: orange;
+    margin: 15px;
+    padding: 10px;
+}
+
+footer {
+    height: 80px;
+    background-color: lightblue;
+}
